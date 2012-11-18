@@ -16,26 +16,28 @@ signature, judging the legitimacy of the test signature.
 
 ##Usage
 
-There are two options when running this software – a CLI with a limited feature set, and a GUI.
+There are two options when running this software - a CLI with a limited feature set, and a GUI.
 
 ###CLI Usage
 
 From the terminal/command prompt, navigate to the directory where the *.JAR file is stored and 
 type the following:
-`java –jar hsv.jar refSig.file testSig.file`
+
+`java -jar hsv.jar refSig.file testSig.file`
 
 ####Parameters
 
-* refSig.file – the signature file that contains the multiple signatures used to create the 
+* **refSig.file** - the signature file that contains the multiple signatures used to create the 
 reference signature. Usually this file should contain 5-10 signature samples.
-* testSig.file - the signature file that contains a single signature that we want to verify 
+* **testSig.file** - the signature file that contains a single signature that we want to verify 
 the authenticity of.
 
 ###GUI Usage
 
 To launch the GUI, simply double click the runnable jar file, or run this CLI command without an 
 argument, like so:
-`java –jar hsv.jar`
+
+`java -jar hsv.jar`
 
 ##System Requirements and Dependancies
 
